@@ -1,0 +1,10 @@
+import java.util.Arrays;
+public class Lista implements Pila, Cola{
+ public void apilar (ineger elemento) {
+    insertarfinal (elemento);
+ }
+ public Integer desapilar() {
+    return eliminar (tabla.length - 1);
+    
+ }
+}
